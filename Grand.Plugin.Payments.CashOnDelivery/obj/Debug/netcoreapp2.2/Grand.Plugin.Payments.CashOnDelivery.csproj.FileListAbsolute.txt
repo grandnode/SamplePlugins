@@ -1,0 +1,13 @@
+C:\Projects\grandNode450\Grand.Web\Plugins\Payments.CashOnDelivery\Views\PaymentCashOnDelivery\_ViewImports.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\Payments.CashOnDelivery\Views\PaymentCashOnDelivery\Configure.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\Payments.CashOnDelivery\Views\PaymentCashOnDelivery\PaymentInfo.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\Payments.CashOnDelivery\Description.txt
+C:\Projects\grandNode450\Grand.Web\Plugins\Payments.CashOnDelivery\logo.jpg
+C:\Projects\grandNode450\Grand.Web\Plugins\Payments.CashOnDelivery\Grand.Plugin.Payments.CashOnDelivery.deps.json
+C:\Projects\grandNode450\Grand.Web\Plugins\Payments.CashOnDelivery\Grand.Plugin.Payments.CashOnDelivery.dll
+C:\Projects\grandNode450\Grand.Web\Plugins\Payments.CashOnDelivery\Grand.Plugin.Payments.CashOnDelivery.pdb
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Payments.CashOnDelivery\obj\Debug\netcoreapp2.2\Grand.Plugin.Payments.CashOnDelivery.csproj.CoreCompileInputs.cache
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Payments.CashOnDelivery\obj\Debug\netcoreapp2.2\Grand.Plugin.Payments.CashOnDelivery.AssemblyInfoInputs.cache
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Payments.CashOnDelivery\obj\Debug\netcoreapp2.2\Grand.Plugin.Payments.CashOnDelivery.AssemblyInfo.cs
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Payments.CashOnDelivery\obj\Debug\netcoreapp2.2\Grand.Plugin.Payments.CashOnDelivery.dll
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Payments.CashOnDelivery\obj\Debug\netcoreapp2.2\Grand.Plugin.Payments.CashOnDelivery.pdb

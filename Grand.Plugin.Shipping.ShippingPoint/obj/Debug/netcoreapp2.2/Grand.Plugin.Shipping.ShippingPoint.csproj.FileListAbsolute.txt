@@ -1,0 +1,17 @@
+C:\Projects\grandNode450\Grand.Web\Plugins\Shipping.ShippingPoint\Views\_ViewImports.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\Shipping.ShippingPoint\Description.txt
+C:\Projects\grandNode450\Grand.Web\Plugins\Shipping.ShippingPoint\logo.jpg
+C:\Projects\grandNode450\Grand.Web\Plugins\Shipping.ShippingPoint\Views\Configure.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\Shipping.ShippingPoint\Views\Create.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\Shipping.ShippingPoint\Views\Edit.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\Shipping.ShippingPoint\Views\FormComboBox.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\Shipping.ShippingPoint\Views\FormShippingOption.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\Shipping.ShippingPoint\Views\_CreateOrUpdate.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\Shipping.ShippingPoint\Grand.Plugin.Shipping.ShippingPoint.deps.json
+C:\Projects\grandNode450\Grand.Web\Plugins\Shipping.ShippingPoint\Grand.Plugin.Shipping.ShippingPoint.dll
+C:\Projects\grandNode450\Grand.Web\Plugins\Shipping.ShippingPoint\Grand.Plugin.Shipping.ShippingPoint.pdb
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Shipping.ShippingPoint\obj\Debug\netcoreapp2.2\Grand.Plugin.Shipping.ShippingPoint.csproj.CoreCompileInputs.cache
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Shipping.ShippingPoint\obj\Debug\netcoreapp2.2\Grand.Plugin.Shipping.ShippingPoint.AssemblyInfoInputs.cache
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Shipping.ShippingPoint\obj\Debug\netcoreapp2.2\Grand.Plugin.Shipping.ShippingPoint.AssemblyInfo.cs
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Shipping.ShippingPoint\obj\Debug\netcoreapp2.2\Grand.Plugin.Shipping.ShippingPoint.dll
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Shipping.ShippingPoint\obj\Debug\netcoreapp2.2\Grand.Plugin.Shipping.ShippingPoint.pdb

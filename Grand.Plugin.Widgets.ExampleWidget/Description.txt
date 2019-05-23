@@ -1,0 +1,8 @@
+﻿Group: Widgets
+FriendlyName: Example Widget
+SystemName: Misc.ExampleWidget
+Version: 1.0
+SupportedVersions: 4.50
+Author: grandnode team
+DisplayOrder: 1
+FileName: Grand.Plugin.Widgets.ExampleWidget.dll

@@ -1,0 +1,17 @@
+C:\Projects\grandNode450\Grand.Web\Plugins\ExternalAuth.Google\Views\Configure.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\ExternalAuth.Google\Views\PublicInfo.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\ExternalAuth.Google\Views\_ViewImports.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\ExternalAuth.Google\Content\googlestyles.css
+C:\Projects\grandNode450\Grand.Web\Plugins\ExternalAuth.Google\Content\Images\google-signing.png
+C:\Projects\grandNode450\Grand.Web\Plugins\ExternalAuth.Google\Description.txt
+C:\Projects\grandNode450\Grand.Web\Plugins\ExternalAuth.Google\logo.jpg
+C:\Projects\grandNode450\Grand.Web\Plugins\ExternalAuth.Google\Views\SignInFailed.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\ExternalAuth.Google\Grand.Plugin.ExternalAuth.Google.deps.json
+C:\Projects\grandNode450\Grand.Web\Plugins\ExternalAuth.Google\Grand.Plugin.ExternalAuth.Google.dll
+C:\Projects\grandNode450\Grand.Web\Plugins\ExternalAuth.Google\Grand.Plugin.ExternalAuth.Google.pdb
+C:\Projects\grandNode450\Plugins\Grand.Plugin.ExternalAuth.Google\obj\Debug\netcoreapp2.2\Grand.Plugin.ExternalAuth.Google.csproj.CoreCompileInputs.cache
+C:\Projects\grandNode450\Plugins\Grand.Plugin.ExternalAuth.Google\obj\Debug\netcoreapp2.2\Grand.Plugin.ExternalAuth.Google.AssemblyInfoInputs.cache
+C:\Projects\grandNode450\Plugins\Grand.Plugin.ExternalAuth.Google\obj\Debug\netcoreapp2.2\Grand.Plugin.ExternalAuth.Google.AssemblyInfo.cs
+C:\Projects\grandNode450\Plugins\Grand.Plugin.ExternalAuth.Google\obj\Debug\netcoreapp2.2\Grand.Plugin.ExternalAuth.Google.csproj.CopyComplete
+C:\Projects\grandNode450\Plugins\Grand.Plugin.ExternalAuth.Google\obj\Debug\netcoreapp2.2\Grand.Plugin.ExternalAuth.Google.dll
+C:\Projects\grandNode450\Plugins\Grand.Plugin.ExternalAuth.Google\obj\Debug\netcoreapp2.2\Grand.Plugin.ExternalAuth.Google.pdb

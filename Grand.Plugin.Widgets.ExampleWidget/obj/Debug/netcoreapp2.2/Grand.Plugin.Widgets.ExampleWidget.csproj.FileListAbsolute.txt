@@ -1,0 +1,14 @@
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Misc.ExamplePluginEmpty\obj\Debug\netcoreapp2.2\Grand.Plugin.Widgets.ExampleWidget.csprojAssemblyReference.cache
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Misc.ExamplePluginEmpty\obj\Debug\netcoreapp2.2\Grand.Plugin.Widgets.ExampleWidget.csproj.CoreCompileInputs.cache
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Misc.ExamplePluginEmpty\obj\Debug\netcoreapp2.2\Grand.Plugin.Widgets.ExampleWidget.AssemblyInfoInputs.cache
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Misc.ExamplePluginEmpty\obj\Debug\netcoreapp2.2\Grand.Plugin.Widgets.ExampleWidget.AssemblyInfo.cs
+C:\Projects\grandNode450\Grand.Web\Plugins\Widgets.ExampleWidget\Description.txt
+C:\Projects\grandNode450\Grand.Web\Plugins\Widgets.ExampleWidget\logo.jpg
+C:\Projects\grandNode450\Grand.Web\Plugins\Widgets.ExampleWidget\Views\Configure.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\Widgets.ExampleWidget\Views\_ViewImports.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\Widgets.ExampleWidget\Grand.Plugin.Widgets.ExampleWidget.deps.json
+C:\Projects\grandNode450\Grand.Web\Plugins\Widgets.ExampleWidget\Grand.Plugin.Widgets.ExampleWidget.dll
+C:\Projects\grandNode450\Grand.Web\Plugins\Widgets.ExampleWidget\Grand.Plugin.Widgets.ExampleWidget.pdb
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Misc.ExamplePluginEmpty\obj\Debug\netcoreapp2.2\Grand.Plugin.Widgets.ExampleWidget.dll
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Misc.ExamplePluginEmpty\obj\Debug\netcoreapp2.2\Grand.Plugin.Widgets.ExampleWidget.pdb
+C:\Projects\grandNode450\Grand.Web\Plugins\Widgets.ExampleWidget\Views\PublicInfo.cshtml

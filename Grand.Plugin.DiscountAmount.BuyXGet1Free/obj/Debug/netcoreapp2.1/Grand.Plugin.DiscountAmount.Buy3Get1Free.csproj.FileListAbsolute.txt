@@ -1,0 +1,11 @@
+D:\Grandnode\GrandNode_420_01\Grand.Web\Plugins\DiscountAmount.Buy3Get1Free\Description.txt
+D:\Grandnode\GrandNode_420_01\Grand.Web\Plugins\DiscountAmount.Buy3Get1Free\logo.jpg
+D:\Grandnode\GrandNode_420_01\Grand.Web\Plugins\DiscountAmount.Buy3Get1Free\Grand.Plugin.DiscountAmount.Buy3Get1Free.deps.json
+D:\Grandnode\GrandNode_420_01\Grand.Web\Plugins\DiscountAmount.Buy3Get1Free\Grand.Plugin.DiscountAmount.Buy3Get1Free.dll
+D:\Grandnode\GrandNode_420_01\Grand.Web\Plugins\DiscountAmount.Buy3Get1Free\Grand.Plugin.DiscountAmount.Buy3Get1Free.pdb
+D:\Grandnode\GrandNode_420_01\Plugins\Grand.Plugin.DiscountAmount.Buy3Get1Free\obj\Debug\netcoreapp2.1\Grand.Plugin.DiscountAmount.Buy3Get1Free.csprojAssemblyReference.cache
+D:\Grandnode\GrandNode_420_01\Plugins\Grand.Plugin.DiscountAmount.Buy3Get1Free\obj\Debug\netcoreapp2.1\Grand.Plugin.DiscountAmount.Buy3Get1Free.csproj.CoreCompileInputs.cache
+D:\Grandnode\GrandNode_420_01\Plugins\Grand.Plugin.DiscountAmount.Buy3Get1Free\obj\Debug\netcoreapp2.1\Grand.Plugin.DiscountAmount.Buy3Get1Free.AssemblyInfoInputs.cache
+D:\Grandnode\GrandNode_420_01\Plugins\Grand.Plugin.DiscountAmount.Buy3Get1Free\obj\Debug\netcoreapp2.1\Grand.Plugin.DiscountAmount.Buy3Get1Free.AssemblyInfo.cs
+D:\Grandnode\GrandNode_420_01\Plugins\Grand.Plugin.DiscountAmount.Buy3Get1Free\obj\Debug\netcoreapp2.1\Grand.Plugin.DiscountAmount.Buy3Get1Free.dll
+D:\Grandnode\GrandNode_420_01\Plugins\Grand.Plugin.DiscountAmount.Buy3Get1Free\obj\Debug\netcoreapp2.1\Grand.Plugin.DiscountAmount.Buy3Get1Free.pdb

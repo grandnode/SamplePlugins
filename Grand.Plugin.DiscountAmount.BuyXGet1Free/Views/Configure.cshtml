@@ -1,0 +1,23 @@
+﻿@model Grand.Plugin.DiscountAmount.BuyXGet1Free.Models.ConfigurationModel
+@{
+    Layout = "_ConfigurePlugin";
+}
+<div asp-validation-summary="All"></div>
+<form asp-controller="DiscountAmount" asp-action="Configure" method="post">
+    <antiforgery-token />
+    <div class="form-horizontal">
+        <div class="form-body">
+            <div class="form-group">
+                <admin-label asp-for="Quantity" />
+                <div class="col-md-9 col-sm-9">
+                    <admin-input asp-for="Quantity" />
+                </div>
+            </div>
+        </div>
+        <div class="form-actions">
+            <div class="col-md-offset-3 col-sm-offset-3 col-md-9 col-sm-9">
+                <input type="submit" name="save" class="btn green" value="@T("Admin.Common.Save")" />
+            </div>
+        </div>
+    </div>
+</form>

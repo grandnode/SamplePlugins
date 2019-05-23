@@ -1,0 +1,8 @@
+﻿Group: Discount amount rate providers
+FriendlyName: Discount amount rate providers
+SystemName: DiscountAmount.Buy3Get1Free
+Version: 1.00
+SupportedVersions: 4.50
+Author: grandnode team
+DisplayOrder: 1
+FileName: Grand.Plugin.DiscountAmount.BuyXGet1Free.dll

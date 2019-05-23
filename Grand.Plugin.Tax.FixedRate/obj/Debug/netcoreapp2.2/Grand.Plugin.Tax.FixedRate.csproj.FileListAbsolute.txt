@@ -1,0 +1,12 @@
+C:\Projects\grandNode450\Grand.Web\Plugins\Tax.FixedRate\Views\Configure.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\Tax.FixedRate\Views\_ViewImports.cshtml
+C:\Projects\grandNode450\Grand.Web\Plugins\Tax.FixedRate\Description.txt
+C:\Projects\grandNode450\Grand.Web\Plugins\Tax.FixedRate\logo.jpg
+C:\Projects\grandNode450\Grand.Web\Plugins\Tax.FixedRate\Grand.Plugin.Tax.FixedRate.deps.json
+C:\Projects\grandNode450\Grand.Web\Plugins\Tax.FixedRate\Grand.Plugin.Tax.FixedRate.dll
+C:\Projects\grandNode450\Grand.Web\Plugins\Tax.FixedRate\Grand.Plugin.Tax.FixedRate.pdb
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Tax.FixedRate\obj\Debug\netcoreapp2.2\Grand.Plugin.Tax.FixedRate.csproj.CoreCompileInputs.cache
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Tax.FixedRate\obj\Debug\netcoreapp2.2\Grand.Plugin.Tax.FixedRate.AssemblyInfoInputs.cache
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Tax.FixedRate\obj\Debug\netcoreapp2.2\Grand.Plugin.Tax.FixedRate.AssemblyInfo.cs
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Tax.FixedRate\obj\Debug\netcoreapp2.2\Grand.Plugin.Tax.FixedRate.dll
+C:\Projects\grandNode450\Plugins\Grand.Plugin.Tax.FixedRate\obj\Debug\netcoreapp2.2\Grand.Plugin.Tax.FixedRate.pdb
