@@ -2,11 +2,6 @@
 using Grand.Core.Configuration;
 using Grand.Core.Infrastructure;
 using Grand.Core.Infrastructure.DependencyManagement;
-using Grand.Plugin.Misc.ExamplePlugin.Services;
-using Grand.Services.Catalog;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Grand.Plugin.Misc.ExamplePlugin
 {

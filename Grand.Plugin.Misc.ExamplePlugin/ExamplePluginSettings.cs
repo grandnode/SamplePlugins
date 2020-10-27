@@ -1,7 +1,4 @@
-﻿using Grand.Core.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Grand.Domain.Configuration;
 
 namespace Grand.Plugin.Misc.ExamplePlugin
 {

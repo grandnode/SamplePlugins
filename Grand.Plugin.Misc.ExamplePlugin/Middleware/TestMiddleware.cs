@@ -1,8 +1,4 @@
-﻿using Grand.Core;
-using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
 
 namespace Grand.Plugin.Misc.ExamplePlugin.Middleware
@@ -16,7 +12,7 @@ namespace Grand.Plugin.Misc.ExamplePlugin.Middleware
             _next = next;
         }
 
-        public async Task InvokeAsync(HttpContext context, IStoreContext storeContext)
+        public async Task InvokeAsync(HttpContext context)
         {
             //call the next middleware in the request pipeline
             await _next(context);

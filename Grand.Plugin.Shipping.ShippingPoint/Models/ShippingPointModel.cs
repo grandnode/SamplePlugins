@@ -1,14 +1,11 @@
-﻿using System.Collections.Generic;
-using FluentValidation.Attributes;
-using Grand.Plugin.Shipping.ShippingPoint.Validators;
-using Grand.Framework.Mvc.Models;
+﻿using Grand.Core.ModelBinding;
+using Grand.Core.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Grand.Framework.Mvc.ModelBinding;
+using System.Collections.Generic;
 
 namespace Grand.Plugin.Shipping.ShippingPoint.Models
 {
-    [Validator(typeof(ShippingPointValidator))]
-    public class ShippingPointModel : BaseGrandEntityModel
+    public class ShippingPointModel : BaseEntityModel
     {
         public ShippingPointModel()
         {
@@ -47,9 +44,9 @@ namespace Grand.Plugin.Shipping.ShippingPoint.Models
 
         [GrandResourceDisplayName("Plugins.Shipping.ShippingPoint.Fields.Country")]
         public string CountryId { get; set; }
-        
+
         public IList<SelectListItem> AvailableCountries { get; set; }
     }
 
-    
+
 }

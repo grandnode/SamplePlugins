@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <OutputPath>..\..\Grand.Web\Plugins\DiscountAmount.BuyXGet1Free</OutputPath>
@@ -13,11 +13,15 @@
     <OutDir>$(OutputPath)</OutDir>
   </PropertyGroup>
 
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<RemoveDir Directories="..\..\Grand.Web\Plugins\DiscountAmount.BuyXGet1Free\refs" />
+	</Target>
+
   <ItemGroup>
     <ProjectReference Include="..\..\Grand.Core\Grand.Core.csproj">
       <Private>false</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Grand.Data\Grand.Data.csproj">
+    </ProjectReference>    
+    <ProjectReference Include="..\..\Grand.Domain\Grand.Domain.csproj">
       <Private>false</Private>
     </ProjectReference>
     <ProjectReference Include="..\..\Grand.Framework\Grand.Framework.csproj">
@@ -30,9 +34,6 @@
 
  
   <ItemGroup>
-    <None Update="Description.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Update="logo.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

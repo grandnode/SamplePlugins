@@ -1,9 +1,8 @@
 ﻿using Grand.Core;
-using Grand.Core.Domain.Catalog;
-using Grand.Core.Domain.Customers;
-using Grand.Core.Domain.Discounts;
+using Grand.Domain.Catalog;
+using Grand.Domain.Customers;
+using Grand.Domain.Discounts;
 using Grand.Core.Plugins;
-using Grand.Services.Catalog;
 using Grand.Services.Discounts;
 using System;
 using System.Linq;
@@ -15,15 +14,14 @@ namespace Grand.Plugin.DiscountAmount.BuyXGet1Free
     {
         private readonly IWebHelper _webHelper;
         private readonly IWorkContext _workContext;
-        private readonly IPriceCalculationService _priceCalculationService;
         private readonly DiscountAmountSettings _settings;
 
-        public  DiscountAmountPlugin(IWebHelper webHelper, IWorkContext workContext, IPriceCalculationService priceCalculationService )
+        public  DiscountAmountPlugin(IWebHelper webHelper, IWorkContext workContext,
+            DiscountAmountSettings settings)
         {
-            this._webHelper = webHelper;
-            this._workContext = workContext;
-            this._priceCalculationService = priceCalculationService;
-
+            _webHelper = webHelper;
+            _workContext = workContext;
+            _settings = settings;
         }
 
         public async Task<decimal> DiscountAmount(Discount discount, Customer customer, Product product, decimal amount)

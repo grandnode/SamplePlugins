@@ -6,8 +6,7 @@
 @using Grand.Plugin.Payments.CashOnDelivery.Models;
 @await Component.InvokeAsync("StoreScopeConfiguration")
 <form asp-controller="PaymentCashOnDelivery" asp-action="Configure" method="post">
-    <antiforgery-token />
-    @(Html.LocalizedEditor<ConfigurationModel, ConfigurationModel.ConfigurationLocalizedModel>("plugin-settings-localized",
+    @(await Html.LocalizedEditor<ConfigurationModel, ConfigurationModel.ConfigurationLocalizedModel>("plugin-settings-localized",
     @<div class="form-horizontal">
         <div class="form-body">
             <div class="form-group">
@@ -77,7 +76,7 @@
         </div>
         <div class="form-actions">
             <div class="row">
-                <div class="col-md-offset-3 col-sm-offset-3 col-md-9 col-sm-9">
+                <div class="offset-md-3 offset-sm-3 col-md-9 col-sm-9">
                     <input type="submit" name="save" class="btn green" value="@T("Admin.Common.Save")" />
                 </div>
             </div>

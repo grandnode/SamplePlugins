@@ -6,7 +6,7 @@
 @using Grand.Framework;
 
 <form asp-controller="ExternalAuthGoogle" asp-action="Configure" method="post">
-    <antiforgery-token />
+    
     <div class="panel-group">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -37,7 +37,7 @@
             </div>
             <div class="panel-footer">
                 <div class="row">
-                    <div class="col-md-offset-3 col-sm-offset-3 col-md-9 col-sm-9">
+                    <div class="offset-md-3 offset-sm-3 col-md-9 col-sm-9">
                         <input type="submit" name="save" class="btn green" value="@T("Admin.Common.Save")" />
                     </div>
                 </div>

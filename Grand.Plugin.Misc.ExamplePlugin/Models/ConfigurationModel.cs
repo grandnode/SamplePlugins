@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Grand.Plugin.Misc.ExamplePlugin.Models
+﻿namespace Grand.Plugin.Misc.ExamplePlugin.Models
 {
     public class ConfigurationModel
     {

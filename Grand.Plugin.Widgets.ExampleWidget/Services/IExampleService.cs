@@ -1,7 +1,5 @@
-﻿using Grand.Plugin.Misc.ExamplePlugin.Domains;
-using System;
+﻿using Grand.Plugin.Widgets.ExampleWidget.Domains;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Grand.Plugin.Misc.ExamplePlugin.Services

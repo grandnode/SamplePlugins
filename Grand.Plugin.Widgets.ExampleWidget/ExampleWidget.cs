@@ -2,8 +2,6 @@
 using Grand.Core.Plugins;
 using Grand.Plugin.Widgets.ExampleWidget;
 using Grand.Services.Cms;
-using Grand.Services.Common;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -17,6 +15,7 @@ namespace Grand.Plugin.Misc.ExamplePlugin
         {
             _webHelper = webHelper;
         }
+
         #region Methods
 
         public override async Task Install()

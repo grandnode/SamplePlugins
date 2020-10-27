@@ -2,14 +2,10 @@
 using Grand.Core.Configuration;
 using Grand.Core.Infrastructure;
 using Grand.Core.Infrastructure.DependencyManagement;
-using Grand.Plugin.Misc.ExamplePlugin.Middleware;
 using Grand.Plugin.Misc.ExamplePlugin.Services;
 using Grand.Plugin.Misc.ExamplePlugin.Tasks;
 using Grand.Services.Catalog;
 using Grand.Services.Tasks;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Grand.Plugin.Misc.ExamplePlugin
 {
@@ -22,6 +18,7 @@ namespace Grand.Plugin.Misc.ExamplePlugin
             builder.RegisterType<ExampleService>().As<IExampleService>().InstancePerLifetimeScope();
             builder.RegisterType<OverrideProductService>().As<IProductService>().InstancePerLifetimeScope();
             builder.RegisterType<ExampleTask>().As<IScheduleTask>().InstancePerLifetimeScope();
+            builder.RegisterType<TestActionFilter2>().InstancePerLifetimeScope();
         }
 
         public int Order {

@@ -1,11 +1,8 @@
-﻿using Grand.Core.Data;
-using Grand.Core.Domain.Catalog;
+﻿using Grand.Domain.Data;
 using Grand.Plugin.Misc.ExamplePlugin.Domains;
-using Grand.Services.Catalog;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Grand.Plugin.Misc.ExamplePlugin.Services

@@ -1,14 +1,9 @@
-﻿using Grand.Core.Configuration;
-using Grand.Framework.Controllers;
+﻿using Grand.Framework.Controllers;
 using Grand.Framework.Mvc.Filters;
 using Grand.Plugin.Widgets.ExampleWidget.Models;
-using Grand.Services.Common;
 using Grand.Services.Configuration;
 using Grand.Services.Localization;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Grand.Plugin.Misc.ExamplePlugin.Controllers
 {
@@ -24,12 +19,12 @@ namespace Grand.Plugin.Misc.ExamplePlugin.Controllers
 
         #region ctor
         public ExampleWidgetController(ExampleWidgetSettings settings,
-                                ISettingService settingService,
-                                ILocalizationService localizationService)
+            ISettingService settingService,
+            ILocalizationService localizationService)
         {
-            this._settings = settings;
-            this._settingService = settingService;
-            this._localizationService = localizationService;
+            _settings = settings;
+            _settingService = settingService;
+            _localizationService = localizationService;
         }
         #endregion
 

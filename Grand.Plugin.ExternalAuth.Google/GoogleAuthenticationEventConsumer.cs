@@ -1,20 +1,21 @@
-﻿using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using Grand.Core.Domain.Customers;
-using Grand.Services.Authentication.External;
+﻿using Grand.Domain.Customers;
 using Grand.Services.Common;
-using Grand.Services.Events;
+using Grand.Services.Notifications.Authentication;
+using MediatR;
+using System.Linq;
+using System.Security.Claims;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Grand.Plugin.ExternalAuth.Google.Infrastructure.Cache
 {
     /// <summary>
     /// Google authentication event consumer (used for saving customer fields on registration)
     /// </summary>
-    public partial class GoogleAuthenticationEventConsumer : IConsumer<CustomerAutoRegisteredByExternalMethodEvent>
+    public partial class GoogleAuthenticationEventConsumer : INotificationHandler<CustomerAutoRegisteredByExternalMethodEvent>
     {
         #region Fields
-        
+
         private readonly IGenericAttributeService _genericAttributeService;
 
         #endregion
@@ -30,7 +31,7 @@ namespace Grand.Plugin.ExternalAuth.Google.Infrastructure.Cache
 
         #region Methods
 
-        public async Task HandleEvent(CustomerAutoRegisteredByExternalMethodEvent eventMessage)
+        public async Task Handle(CustomerAutoRegisteredByExternalMethodEvent eventMessage, CancellationToken cancellationToken)
         {
             if (eventMessage?.Customer == null || eventMessage.AuthenticationParameters == null)
                 return;
@@ -48,6 +49,8 @@ namespace Grand.Plugin.ExternalAuth.Google.Infrastructure.Cache
             if (!string.IsNullOrEmpty(lastName))
                 await _genericAttributeService.SaveAttribute(eventMessage.Customer, SystemCustomerAttributeNames.LastName, lastName);
         }
+
+        public void HandleEvent(CustomerAutoRegisteredByExternalMethodEvent eventMessage) { }
 
 
         #endregion

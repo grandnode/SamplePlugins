@@ -1,12 +1,10 @@
 ﻿using Grand.Core.Infrastructure;
 using Grand.Plugin.Misc.ExamplePlugin.Middleware;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Grand.Plugin.Misc.ExamplePlugin
 {
@@ -19,6 +17,11 @@ namespace Grand.Plugin.Misc.ExamplePlugin
         public void Configure(IApplicationBuilder application)
         {
             application.UseMiddleware<TestMiddleware>();
+        }
+
+        public void Configure(IApplicationBuilder application, IWebHostEnvironment webHostEnvironment)
+        {
+            
         }
 
         public void ConfigureServices(IServiceCollection services, IConfiguration configuration)
